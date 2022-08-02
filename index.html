@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bruno Oliver">
+    <meta name="description" content="Portfólio do desenvolvedor front-end Bruno Oliver">
+    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+    <title>Oliver Tolo</title>
+    <link rel="icon" href="assets/icon.png">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+    <nav data-menu="suave">
+       <p><a href="#home">&lsaquo;B.O/&rsaquo;</a></p>
+       <button data-menu="button" aria-controls="menu"></button>
+      <ul data-menu="list" id="menu">
+        <a href="#home">
+        <li>Home</li>
+      </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#experiencia">
+        <li>Experiência</li>
+      </a>
+      <a href="#projetos">
+        <li>Projetos</li>
+      </a>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+      <section class="principal" id="home" >
+        <div class="principal__left">
+          <h1>Olá, eu sou</h1>
+            <span class="principal__sentence"></span>
+            <span class="principal__input-cursor"></span>
+          <h1>Desenvolvedor Front-End</h1>
+          <div class="principal__botao">
+            <a href="https://www.linkedin.com/in/bruno-oliveira-684b06150/" target="_blank">
+              <div class="principal__botao-linkedin">
+                <img src="./assets/linkedin.png" alt="" />
+                <p>LinkedIn</p>
+              </div>
+            </a>
+            <a href="https://github.com/bromoliver" target="_blank">
+              <div class="principal__botao-github">
+                <img src="./assets/github.png" alt="" />
+                <p>Github</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="principal__right">
+          <img src="./assets/sobre.png" alt="Ilustração representando um vampiro" data-tilt>
+        </div>
+        
+        <div class="scroll" data-menu="suave"><a href="#sobre" > <p> scroll down </p> <img src="./assets/scroll.png" alt="Setinha indicando para rolar a tela para baixo"></a></div>
+      </section>
+      <section class="sobre-mim" id="sobre" data-anime="js-scroll">
+        <div class="sobre-mim__foto">
+          <img src="./assets/eu.jpg" alt="Uma selfie do Bruno Oliver" />
+        </div>
+        <div class="sobre-mim__descricao" >
+          <h1>Sobre mim</h1>
+          <h2>Ouro Preto, Minas Gerais</h2>
+          <p>
+            Me chamo Bruno e sou graduando em Engenharia de Software, no momento estou focado em melhorar minha habilidades com o front-end, mas pretendo me tornar um programador full-stack no futuro proximo. 
+
+          <div class="sobre-mim__descricao-buttons">
+            <a href="./assets/Bruno Oliveira.pdf" download="">
+              <div class="sobre-mim__descricao-buttons-curriculo">
+                <img src="./assets/download-da-nuvem.png" alt="" />
+                <p>Currículo</p>
+              </div>
+            </a>
+            <a
+              href="mailto: bromoliver@gmail.com.br?subject=Olá, vim pelo seu portfólio! :)"
+              target="_blank"
+            >
+              <div class="sobre-mim__descricao-buttons-email">
+                <img src="./assets/email.png" alt="" />
+                <p>E-mail</p>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+      </section>
+      <section class="experiencia" id="experiencia" data-anime="js-scroll">
+        <h1>Experiência</h1>
+        <div class="experiencia__wrapper">
+          <section class="experiencia__lugares">
+            <ul data-tab="menu">
+              <li>&#128064&#128064</li>
+              <li>My Epic Trip</li>
+              <li>UFOP</li>
+            </ul>
+          </section>
+          <div class="experiencia__descricao" data-tab="content">
+            <section data-anime="show-right">
+              <h2>Em busca de um estágio ^^</h2>
+              <p class="experiencia__descricao-local">Quem sabe na sua empresa?</p>
+              <p>Estou disponível para bater um papo, você pode entrar em contato via e-mail bromoliver@gmail.com</p>
+            </section>
+            <section data-anime="show-right">
+            <h2>Desenvolvedor Front-End</h2>
+            <span>Out 2021 - Atual</span>
+            <p class="experiencia__descricao-local">My Epic Trip - Projeto Freelancer</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eaque deleniti vitae corrupti nihil nostrum. Incidunt qui dolor, consequuntur alias dicta nostrum similique quae modi reprehenderit non quam eos illo.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eos ducimus, numquam consequuntur, inventore repellendus fuga dolorem provident nihil, porro ab corporis officiis laudantium voluptates qui maxime a eum accusantium?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus a voluptate quibusdam facilis quia at? Quae, explicabo consequuntur eligendi aliquam id fugiat quis nam qui consequatur ex distinctio optio nihil!
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Pós Graduação / Estágio</h2>
+            <span>Mar 2021 - Jul 2021</span>
+            <p class="experiencia__descricao-local">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odio. Obcaecati, veritatis. Explicabo soluta iste officiis! Cumque commodi repudiandae vero aliquam laborum labore. Eveniet expedita ipsum neque, unde veniam autem!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, tempore! Consequatur doloribus atque enim minus. Voluptatem beatae, dolorem deserunt, reprehenderit enim ad, quisquam similique expedita magnam dolore iste sunt laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsum minus rem porro aspernatur quos doloremque magni corrupti consequatur, mollitia illum officiis facere odit molestias, reiciendis facilis quis. Officia, esse.
+            </p>
+          </section>
+        </div>
+        </section>
+        </div>
+      </section>
+      <section class="projetos" id="projetos" data-anime="js-scroll">
+        <h1>Projetos</h1>
+        <div class="projetos__wrapper">
+          <section class="projetos__card">
+            <a href="https://" target="_blank">
+            <img src="./assets/projeto.jpg" alt="Imagem logo do projeto" class="projeto-img"/>
+          </a>
+            <h2>Peojeto 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad optio voluptas minus, quia in accusamus numquam voluptatibus fuga ratione repellat quos qui aperiam quidem non quaerat, corrupti hic odio? Fuga.
+            </p>
+            <span>Tecnologias usadas no projeto: xxxxxxxxxxxxxxxxxxxx </span>
+            <a href="https://" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="Imagem logo do projeto">
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="https://" target="_blank">
+            <img src="./assets/projeto.jpg" alt="Imagem logo do projeto" class="projeto-img"/>
+            </a>
+            <h2>Projeto 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione iste asperiores est enim vel quidem nulla, nobis placeat voluptatum itaque possimus quasi omnis culpa animi quis numquam consequuntur? Quam!
+            </p>
+            <span>Tecnologias usadas no projeto: xxxxxxxxxxxxxxxxxxxx</span>
+            <a href="https://" target="_blank"
+              >
+              <div class="projetos__card-button">
+              <img src="./assets/link.png" alt="Imagem logo do projeto">
+              Visualizar
+            </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="https://" target="_blank">
+            <img src="./assets/projeto.jpg" alt="Imagem logo do projeto" class="projeto-img"/>
+            </a>
+            <h2>Projeto 3</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate explicabo voluptatem, maiores assumenda nesciunt quam, perspiciatis illo molestias adipisci asperiores nulla officiis fugit esse. Consequatur omnis aspernatur dolorem repudiandae quaerat?
+            </p>
+            <span>Tecnologias usadas no projeto: xxxxxxxxxxxxxxxxxxxx</span>
+            <a href="https://" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="Imagem logo do projeto">
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <section class="projetos__card">
+            <a href="https://" target="_blank">
+            <img src="./assets/projeto.jpg" alt="Imagem logo do projeto" class="projeto-img"/>
+          </a>
+            <h2>Projeto 4</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quaerat commodi voluptas odit perspiciatis unde laboriosam provident repellat placeat, deleniti doloribus nihil reiciendis, dignissimos quia. Quasi dicta hic aut harum.
+            </p>
+            <span>Tecnologias usadas no projeto: xxxxxxxxxxxxxxxxxxxx</span>
+            <a href="https://" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="">
+                Visualizar
+              </div>
+            </a>
+   
+          </section>
+        </div>
+      </section>
+
+      <footer>
+        <p>Desenvolvido por</p><a href="https://www.linkedin.com/in/bruno-oliveira-684b06150/" target="_blank"><span> Bruno Oliver</span></a>
+      </footer>
+    </main>
+
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/modules/vanilla-tilt.min.js"></script>
+  </body>
+</html>
