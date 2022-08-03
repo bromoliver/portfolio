@@ -3,7 +3,7 @@
 body {
   margin: 0;
   border: 0;
-  background-color: #332E2E;
+  background-color: #ffffff;
   color: white;
   font-family: "Inter", sans-serif;
   letter-spacing: 1px;
@@ -136,6 +136,7 @@ nav p a:hover {
 .projetos {
   padding: 6.5% 15%;
   min-height: 35vh;
+  color: black;
 }
 
 section h1 {
