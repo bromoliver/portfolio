@@ -393,14 +393,15 @@ a {
 
 .experiencia__lugares ul {
   list-style: none;
-  font-size: 1.1rem;
-  padding: 0;
+  font-size: 1.4rem;
+  padding: 0;  
 }
 
 .experiencia__lugares ul li.active {
   background-color: #151515;
   border-left: 2px solid #C41010;
   font-weight: 600;
+  
 }
 
 .experiencia__lugares li {
